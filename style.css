@@ -1,0 +1,39 @@
+* {
+    background-color: #222;
+    color: #fff;
+
+}
+
+.wrap {
+    width: 40%;
+    max-width: 450px;
+    text-align: center;
+    margin: 185px auto 0;
+    padding: 90px;
+    background-color: #222;
+    border-radius: 20px 40px;
+}
+
+input {
+    padding: 10px;
+    font-size: 95%;
+    border-radius: 15px;
+}
+
+button {
+    display:inline-block;
+    padding: 10px;
+    font-size: 95%;
+    cursor: pointer;
+}
+
+#playAgain {
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+p {
+    justify-content: center;
+}
