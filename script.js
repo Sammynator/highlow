@@ -17,11 +17,18 @@ function spellCheck(){
     if (parseInt(guessInput.value) <= 20 && parseInt(guessInput.value) >= 1){
         winCheck(guessInput.value);
     }
+    else if (parseInt(guessInput.value) == 69){
+        message.textContent = "Nice."
+    }
+    else if (parseInt(guessInput.value) == 420){
+        message.textContent = "Nide, dude."
+    }
     else if (parseInt(guessInput.value) > 20 || parseInt(guessInput.value) < 1){
-        message.textContent = "Number must be between 1-20.";
+        message.textContent = "Not a valid number.";
     }
     else if (isNaN(guessInput) === true ){
         message.textContent = "That is not a number. Try again.";
+    }
 
     guessInput.value = '';
 }
