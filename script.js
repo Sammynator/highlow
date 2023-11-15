@@ -24,7 +24,7 @@ function spellCheck(){
         message.textContent = "Nide, dude."
     }
     else if (parseInt(guessInput.value) > 20 || parseInt(guessInput.value) < 1){
-        message.textContent = "Not a valid number.";
+        message.textContent = "Number must be between 1-20.";
     }
     else if (isNaN(guessInput) === true ){
         message.textContent = "That is not a number. Try again.";
